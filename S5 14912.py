@@ -1,0 +1,6 @@
+a, b= map(int, input().split())
+x = list(i+1 for i in range(a))
+x = str(x)
+strl = ''.join(x)
+strl = str(strl)
+print(strl.count('%d' %b))
